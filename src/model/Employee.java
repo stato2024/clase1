@@ -2,17 +2,17 @@ package model;
 
 public class Employee {
 
+    private Integer dni;
+    private String name;
+    private String surname;
+    private double salary;
+
     public Employee(Integer dni, String name, String surname, double salary) {
         this.dni = dni;
         this.name = name;
         this.surname = surname;
         this.salary = salary;
     }
-
-    private Integer dni;
-    private String name;
-    private String surname;
-    private double salary;
 
     public String getName() {
         return name;
